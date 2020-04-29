@@ -7,8 +7,8 @@
             "description": "Fuck2Ray UUID",
             "value": "a78a83cb-8679-47fb-ac1a-8f3764157957"
         }
-    }
-     "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    },
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
     "repository": "https://github.com/bclswl0827/v2ray-heroku",
     "stack": "container",
 
@@ -21,7 +21,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10808,
+      "port": 6680,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -208,7 +208,7 @@
       "streamSettings": null,
       "mux": null
     },
-    
+  
   "stats": null,
   "api": null,
   "dns": null,
@@ -227,5 +227,5 @@
       }
     ]
   }
- }
+
 
