@@ -8,6 +8,9 @@
             "value": "a78a83cb-8679-47fb-ac1a-8f3764157957"
         }
     },
+  "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+  "repository": "https://github.com/bclswl0827/v2ray-heroku",
+  "stack": "container",
 
   "policy": null,
   "log": {
@@ -153,13 +156,13 @@
             ]
            }
  
-            ]  
+          ]  
         },
         
         "servers": null,
         "response": null,
       
-      "streamSettings": {
+       "streamSettings": {
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
@@ -175,5 +178,55 @@
         },
         "httpSettings": null,
         "quicSettings": null
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": 8
       }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {
+        "vnext": null,
+        "servers": null,
+        "response": null
+      },
+      "streamSettings": null,
+      "mux": null
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "vnext": null,
+        "servers": null,
+        "response": {
+          "type": "http"
+        }
+      },
+      "streamSettings": null,
+      "mux": null
+    },
+  
+  "stats": null,
+  "api": null,
+  "dns": null,
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "type": "field",
+        "port": null,
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "ip": null,
+        "domain": null
+      }
+      ]
+    }
+  
 }
+
