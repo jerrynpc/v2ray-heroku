@@ -175,33 +175,5 @@
         },
         "httpSettings": null,
         "quicSettings": null
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": 8
       }
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom",
-      "settings": {
-        "vnext": null,
-        "servers": null,
-        "response": null
-      },
-      "streamSettings": null,
-      "mux": null
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole",
-      "settings": {
-        "vnext": null,
-        "servers": null,
-        "response": {
-          "type": "http"
-        }
-      },
-      "streamSettings": null,
-      "mux": null
-    }
+}
