@@ -70,7 +70,7 @@
                 "security": "auto"
               }
             ]
-          }
+           },
            {
             "address": "jerrynpc2.herokuapp.com",
             "port": 443,
@@ -82,7 +82,7 @@
                 "security": "auto"
               }
             ]
-           }
+           },
            {
             "address": "jerrynpc3.herokuapp.com",
             "port": 443,
@@ -94,7 +94,7 @@
                 "security": "auto"
               }
             ]
-           }
+           },
            {
             "address": "jerrynpc4.herokuapp.com",
             "port": 443,
@@ -106,7 +106,7 @@
                 "security": "auto"
               }
             ]
-           }
+           },
            {
             "address": "jerrynpc5.herokuapp.com",
             "port": 443,
@@ -118,9 +118,47 @@
                 "security": "auto"
               }
             ]
+           },
+           {
+            "address": "jerrynpc6.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+           },
+           {
+            "address": "jerrynpc7.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+           },
+           {
+            "address": "jerrynpc8.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
            }
+ 
             ]  
         },
+        
         "servers": null,
         "response": null,
       
