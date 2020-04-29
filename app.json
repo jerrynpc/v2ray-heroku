@@ -8,9 +8,10 @@
             "value": "a78a83cb-8679-47fb-ac1a-8f3764157957"
         }
     },
-    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
-    "repository": "https://github.com/bclswl0827/v2ray-heroku",
-    "stack": "container",
+  "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+  "repository": "https://github.com/bclswl0827/v2ray-heroku",
+  "stack": "container",
+
   "policy": null,
   "log": {
     "access": "",
@@ -39,6 +40,194 @@
       },
       "streamSettings": null
     }
-  ]
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+           {
+            "address": "jerrynpc.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+           },
+           {
+            "address": "jerrynpc1.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+           },
+           {
+            "address": "jerrynpc2.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+           },
+           {
+            "address": "jerrynpc3.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+           },
+           {
+            "address": "jerrynpc4.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+           },
+           {
+            "address": "jerrynpc5.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+           },
+           {
+            "address": "jerrynpc6.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+           },
+           {
+            "address": "jerrynpc7.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+           },
+           {
+            "address": "jerrynpc8.herokuapp.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "a78a83cb-8679-47fb-ac1a-8f3764157957",
+                "alterId": 6,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+           }
+ 
+          ]  
+        },
+        
+        "servers": null,
+        "response": null,
+      
+       "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": null
+        },
+        "tcpSettings": null,
+        "kcpSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/VideoDownloads",
+          "headers": null
+        },
+        "httpSettings": null,
+        "quicSettings": null
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": 8
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {
+        "vnext": null,
+        "servers": null,
+        "response": null
+      },
+      "streamSettings": null,
+      "mux": null
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "vnext": null,
+        "servers": null,
+        "response": {
+          "type": "http"
+        }
+      },
+      "streamSettings": null,
+      "mux": null
+    }
+  ],
+  
+  "stats": null,
+  "api": null,
+  "dns": null,
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "type": "field",
+        "port": null,
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "ip": null,
+        "domain": null
+      }
+      ]
+    }
   
 }
+
