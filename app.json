@@ -8,9 +8,9 @@
             "value": "a78a83cb-8679-47fb-ac1a-8f3764157957"
         }
     },
-    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
-    "repository": "https://github.com/bclswl0827/v2ray-heroku",
-    "stack": "container",
+  "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+  "repository": "https://github.com/bclswl0827/v2ray-heroku",
+  "stack": "container",
 
   "policy": null,
   "log": {
@@ -21,7 +21,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 6680,
+      "port": 443,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -225,8 +225,8 @@
         "ip": null,
         "domain": null
       }
-    ]
-   }
- }
+      ]
+    }
+  }
 
 
