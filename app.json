@@ -21,7 +21,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 443,
+      "port": 6680,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
