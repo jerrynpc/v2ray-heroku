@@ -12,7 +12,6 @@
     "repository": "https://github.com/bclswl0827/v2ray-heroku",
     "stack": "container",
 
-  {
   "policy": null,
   "log": {
     "access": "",
@@ -191,5 +190,4 @@
     ]
   }
  }
-}
 
