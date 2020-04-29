@@ -1,17 +1,15 @@
 {
-    "name": "V2Ray",
-    "description": "Deploy V2ray on Heroku.",
-    "keywords": ["V2Ray"],
+    "name": "Fuck2Ray",
+    "description": "Deploy Fuck2ray on Heroku.",
+    "keywords": ["Fuck2Ray"],
     "env": {
         "UUID": {
-            "description": "V2Ray UUID",
-            "value": "ad806487-2d26-4636-98b6-ab85cc8521f7"
+            "description": "Fuck2Ray UUID",
+            "value": "a78a83cb-8679-47fb-ac1a-8f3764157957"
         }
     },
-    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
-    "repository": "https://github.com/bclswl0827/v2ray-heroku",
-    "stack": "container"
-    {
+
+  {
   "policy": null,
   "log": {
     "access": "",
@@ -191,5 +189,8 @@
       }
     ]
   }
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository": "https://github.com/bclswl0827/v2ray-heroku",
+    "stack": "container"
 }
-}
+
