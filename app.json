@@ -204,26 +204,5 @@
       },
       "streamSettings": null,
       "mux": null
-    },
-  { 
-  "stats": null,
-  "api": null,
-  "dns": null,
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "type": "field",
-        "port": null,
-        "inboundTag": [
-          "api"
-        ],
-        "outboundTag": "api",
-        "ip": null,
-        "domain": null
-      }
-      ]
     }
-  }
 }
-
